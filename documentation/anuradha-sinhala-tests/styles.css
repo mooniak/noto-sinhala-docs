@@ -1,0 +1,309 @@
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, [contenteditable="true"]:active, [contenteditable="true"]:focus {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: white;
+  color: black;
+  margin: 0 auto;
+}
+
+body {
+  font-weight: normal;
+  font-size: 11pt;
+  margin: 30px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: Lucida Console, Monaco, monospace !important;
+  font-weight: normal;
+}
+
+.label {
+  font-family: '', Lucida Console, Monaco, monospace !important;
+  font-family;
+  line-height: 1.5;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+}
+
+hr {
+    margin: 60px 0px;
+}
+
+h1.label {
+  font-size: 22px;
+  color: #666;
+}
+
+h2.label {
+  font-size: 18px;
+  color: #666;
+  font-weight: 800;
+}
+
+div.row {
+  clear: both;
+  float: none;
+  width: 960px;
+  border-top: 1px solid #e0e0e0;
+  padding: 0;
+  white-space: nowrap;
+  margin: auto;
+}
+
+div.u {
+  float: left;
+  text-align: center;
+  width: 60px;
+  padding: 16px 0px 4px 0px;
+}
+
+div.u tt {
+  display: block;
+  text-transform: uppercase;
+  color: #666;
+  font-family: Lucida Console, Monaco, monospace !important;
+  font-size: 11px;
+  line-height: 10px;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+
+div.u span {
+  font-size: 25pt;
+  height: 44px;
+  display: block;
+}
+
+table.unicode {
+  font-size: 9pt;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table.unicode td {
+  vertical-align: middle;
+  padding: 1px 0px 1px 0px;
+}
+
+table.unicode td.space {
+  padding: 1px 60px 1px 60px;
+}
+
+div.utop form {
+  padding-top: 12px;
+  float: right;
+}
+
+div.utop h1 {
+  padding: 6px 0px 6px 0px;
+}
+
+div.ubottom {
+  border-top: 1px solid #e0e0e0;
+}
+
+div.ubottom form {
+  padding-top: 7px;
+  float: right;
+}
+
+/* Anuradha Unicode Tests
+-----------------------------------------*/
+
+th {
+  font-size: 10px;
+  background: #eee;
+  padding: 10px;
+  border-left: 1px #D8D8D8 solid;
+  font-family: Lucida Console, Monaco, monospace !important;
+}
+
+td.c {
+  font-size: 30px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  valign=middle;
+}
+
+td.i {
+  font-size: 40px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  vertical-align: center;
+}
+
+td.u {
+  font-size: 20px;
+  font-family: Lucida Console, Monaco, monospace !important;
+  text-align: left;
+  background: #F7F7F7;
+  padding: 20px;
+  vertical-align: center;
+}
+
+.unitest_set {
+  width: 100%;
+}
+
+.unitest_tb {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+}
+
+.unitest_tb tr {
+  border-top: 1px solid #e0e0e0;
+  padding: 0;
+}
+
+
+
+/********Images*********/
+
+.figure {
+  margin: -100pt;
+  z-index: -999;
+  position: absolute;
+}
+
+.full-bleed-page-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: monospace;
+  width: 148mm;
+  height: 210mm;
+  padding: 0;
+  background: url(../scripts/blank_img.svg);
+  margin: -21mm 0mm 0mm -15mm;
+}
+
+.full-bleed-page-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: monospace;
+  width: 148mm;
+  height: 210mm;
+  padding: 0;
+  background: url(../scripts/blank_img.svg);
+  margin: -20mm 0mm 0mm -20mm;
+}
+
+/*********************/
+/******PRINT*******/
+/*********************/
+
+html {
+  hyphens: auto
+}
+
+@media print {
+  body {
+    font-family: '';
+    font-weight: normal;
+    width: 100%;
+    font-size: 11pt;
+    margin: 0;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    page-break-after: avoid;
+  }
+  pre, blockquote {
+    page-break-inside: avoid;
+  }
+}
+
+@page {
+  size: 210mm 297mm;
+  /* Paper size for print */
+  orphans: 4;
+  widows: 2;
+}
+
+@page: left {
+  margin-left: 1.5cm;
+  margin-right: 1cm;
+  padding-right: 1cm;
+  @top-left {
+    content: "Sinhala Unicode Tests";
+    vertical-align: bottom;
+    font-size: 8pt;
+    margin-bottom: 10pt;
+  }
+  @bottom-left {
+    font-size: 8pt;
+    font-family: '';
+    content: counter(page)
+  }
+}
+
+@page: right {
+  margin-left: 1cm;
+  margin-right: 1.5cm;
+  padding-left: 1cm;
+  font-family: '';
+  @bottom-right {
+    font-size: 8pt;
+    font-family: '';
+    content: counter(page)
+  }
+}
+
+@page: first {
+  margin: 0;
+  /*background: url()*/
+}
+
+@page :blank {
+  @top-center {
+    content: "This page is intentionally left blank"
+  }
+
+  hr {
+    display: block;
+    page-break-before: always;
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+}

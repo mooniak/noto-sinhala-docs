@@ -1,0 +1,584 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-SemiBold
+FamilyName:Noto Sans Sinhala
+StyleName:SemiBold
+MenuName:Noto Sans Sinhala SemBd
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala SemiBold
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-SemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:91840
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala SemBd
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Regular
+FamilyName:Noto Sans
+StyleName:Regular
+MenuName:Noto Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Regular
+WritingScript:Roman
+OutlineFileName:\NotoSans-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:313144
+FileModTime:1505924434
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-ExtraBold
+FamilyName:Noto Sans Sinhala
+StyleName:ExtraBold
+MenuName:Noto Sans Sinhala ExtBd
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala ExtraBold
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-ExtraBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:90872
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala ExtBd
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Medium
+FamilyName:Noto Sans
+StyleName:Medium
+MenuName:Noto Sans Med
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Medium
+WritingScript:Roman
+OutlineFileName:\NotoSans-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:313296
+FileModTime:1505924434
+NameArray:0,Win,1,Noto Sans Med
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Bold
+FamilyName:Noto Sans
+StyleName:Bold
+MenuName:Noto Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Bold
+WritingScript:Roman
+OutlineFileName:\NotoSans-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:313792
+FileModTime:1505924432
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-Light
+FamilyName:Noto Sans Sinhala
+StyleName:Light
+MenuName:Noto Sans Sinhala Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala Light
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:89724
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala Light
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-Regular
+FamilyName:Noto Serif Sinhala
+StyleName:Regular
+MenuName:Noto Serif Sinhala
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74676
+FileModTime:1543229201
+NameArray:0,Win,1,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AbhayaLibreDev-Regular
+FamilyName:Abhaya Libre Dev
+StyleName:Regular
+MenuName:Abhaya Libre Dev
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Abhaya Libre Dev Regular
+WritingScript:Roman
+OutlineFileName:\AbhayaLibreDev-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:491212
+FileModTime:1517702813
+NameArray:0,Mac,4,Abhaya Libre Dev Regular
+NameArray:0,Win,1,Abhaya Libre Dev
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-Thin
+FamilyName:Noto Sans Sinhala
+StyleName:Thin
+MenuName:Noto Sans Sinhala Thin
+StyleBits:0
+WeightClass:100
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala Thin
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74140
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala Thin
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-CondensedThin
+FamilyName:Noto Sans Sinhala
+StyleName:Condensed Thin
+MenuName:Noto Sans Sinhala Cond Thin
+StyleBits:0
+WeightClass:100
+WidthClass:3
+AngleClass:0
+FullName:Noto Sans Sinhala Condensed Thin
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-CondensedThin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85928
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala Cond Thin
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-Black
+FamilyName:Noto Sans Sinhala
+StyleName:Black
+MenuName:Noto Sans Sinhala Blk
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala Black
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:78824
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala Blk
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-SemiBold
+FamilyName:Noto Sans
+StyleName:SemiBold
+MenuName:Noto Sans SemBd
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans SemiBold
+WritingScript:Roman
+OutlineFileName:\NotoSans-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:313724
+FileModTime:1505924434
+NameArray:0,Win,1,Noto Sans SemBd
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-SemiCondensed
+FamilyName:Noto Sans Sinhala
+StyleName:SemiCondensed
+MenuName:Noto Sans Sinhala SemCond
+StyleBits:0
+WeightClass:400
+WidthClass:4
+AngleClass:0
+FullName:Noto Sans Sinhala SemiCondensed
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-SemiCondensed.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:90168
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala SemCond
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NirmalaUI
+FamilyName:Nirmala UI
+StyleName:Regular
+MenuName:Nirmala UI
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Nirmala UI
+WritingScript:Kannada
+OutlineFileName:\Nirmala.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1345200
+FileModTime:1515619704
+NameArray:0,Mac,4,Nirmala UI
+NameArray:0,Win,1,Nirmala UI
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-Bold
+FamilyName:Noto Sans Sinhala
+StyleName:Bold
+MenuName:Noto Sans Sinhala
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala Bold
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84432
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-ExtraCondensedBold
+FamilyName:Noto Sans Sinhala
+StyleName:ExtraCondensed Bold
+MenuName:Noto Sans Sinhala ExtCond
+StyleBits:2
+WeightClass:700
+WidthClass:2
+AngleClass:0
+FullName:Noto Sans Sinhala ExtraCondensed Bold
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-ExtraCondensedBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:86356
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala ExtCond
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-Black
+FamilyName:Noto Serif Sinhala
+StyleName:Black
+MenuName:Noto Serif Sinhala Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala Black
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74660
+FileModTime:1543229222
+NameArray:0,Win,1,Noto Serif Sinhala Black
+NameArray:0,Win,16,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-Condensed
+FamilyName:Noto Sans Sinhala
+StyleName:Condensed
+MenuName:Noto Sans Sinhala Cond
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Noto Sans Sinhala Condensed
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-Condensed.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:88100
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala Cond
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-Regular
+FamilyName:Noto Sans Sinhala
+StyleName:Regular
+MenuName:Noto Sans Sinhala
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noto Sans Sinhala
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84072
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-ExtraCondensed
+FamilyName:Noto Sans Sinhala
+StyleName:ExtraCondensed
+MenuName:Noto Sans Sinhala ExtCond
+StyleBits:0
+WeightClass:400
+WidthClass:2
+AngleClass:0
+FullName:Noto Sans Sinhala ExtraCondensed
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-ExtraCondensed.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74920
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala ExtCond
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-CondensedBlack
+FamilyName:Noto Sans Sinhala
+StyleName:Condensed Black
+MenuName:Noto Sans Sinhala Cond Blk
+StyleBits:0
+WeightClass:900
+WidthClass:3
+AngleClass:0
+FullName:Noto Sans Sinhala Condensed Black
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-CondensedBlack.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:89136
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala Cond Blk
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-ExtraCondensedBlack
+FamilyName:Noto Sans Sinhala
+StyleName:ExtraCondensed Black
+MenuName:Noto Sans Sinhala ExtCond Blk
+StyleBits:0
+WeightClass:900
+WidthClass:2
+AngleClass:0
+FullName:Noto Sans Sinhala ExtraCondensed Black
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-ExtraCondensedBlack.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76564
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala ExtCond Blk
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSansSinhala-ExtraCondensedThin
+FamilyName:Noto Sans Sinhala
+StyleName:ExtraCondensed Thin
+MenuName:Noto Sans Sinhala ExtCond Thin
+StyleBits:0
+WeightClass:100
+WidthClass:2
+AngleClass:0
+FullName:Noto Sans Sinhala ExtraCondensed Thin
+WritingScript:Roman
+OutlineFileName:\NotoSansSinhala-ExtraCondensedThin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:72888
+FileModTime:1527657984
+NameArray:0,Win,1,Noto Sans Sinhala ExtCond Thin
+NameArray:0,Win,16,Noto Sans Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:IskoolaPota
+FamilyName:Iskoola Pota
+StyleName:Regular
+MenuName:Iskoola Pota
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Iskoola Pota
+WritingScript:Roman
+OutlineFileName:\iskpota.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:541176
+FileModTime:1515430139
+NameArray:0,Mac,4,Iskoola Pota
+NameArray:0,Win,1,Iskoola Pota
+%EndFont
+

@@ -1,0 +1,131 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: NotoSansSinhalaReport_DEC2019.indd
+
+PACKAGE DATE: 12/15/18 2:41 PM
+Creation Date: 12/15/18
+Modification Date: 12/15/18
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page9
+
+FONTS
+24 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: AbhayaLibreDev-Regular; Type: OpenType TrueType, Status: OK
+- Name: IskoolaPota; Type: OpenType TrueType, Status: OK
+- Name: NirmalaUI; Type: OpenType TrueType, Status: OK
+- Name: NotoSans-Bold; Type: TrueType, Status: OK
+- Name: NotoSans-Medium; Type: TrueType, Status: OK
+- Name: NotoSans-Regular; Type: TrueType, Status: OK
+- Name: NotoSans-SemiBold; Type: TrueType, Status: OK
+- Name: NotoSansSinhala-Black; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-Bold; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-Condensed; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-CondensedBlack; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-CondensedThin; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-ExtraBold; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-ExtraCondensed; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-ExtraCondensedBlack; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-ExtraCondensedBold; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-ExtraCondensedThin; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-Light; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-Regular; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-SemiBold; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-SemiCondensed; Type: OpenType Type 1, Status: OK
+- Name: NotoSansSinhala-Thin; Type: OpenType Type 1, Status: OK
+- Name: NotoSerifSinhala-Black; Type: OpenType Type 1, Status: OK
+- Name: NotoSerifSinhala-Regular; Type: OpenType Type 1, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Magenta; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Black; Angle: 0.000; Lines/Inch: 0.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 1 Links Found; 0 Modified, 0 Missing, 0 Inaccessible
+Images: 0 Embedded, 1 use RGB color space
+
+
+PRINT SETTINGS
+PPD: N/A, (Canon LBP6030/6040/6018L)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0p0, 0p0, 0p0, 0p0
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Letter
+Paper Dimensions: 49p7 x 70p2
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. NotoSansSinhalaReport_DEC2019.indd; type: Adobe InDesign publication; size: 2360K
+2. NotoSansSinhalaReport_DEC2019.idml; type: InDesign Markup Document; size: 156K
+3. NotoSansSinhalaReport_DEC2019.pdf; type: Adobe Acrobat Document; size: 391K
+4. AbhayaLibreDev-Regular.ttf; type: Font file; size: 479K
+5. iskpota.ttf; type: Font file; size: 528K
+6. Nirmala.ttf; type: Font file; size: 1313K
+7. NotoSans-Bold.ttf; type: Font file; size: 306K
+8. NotoSans-Medium.ttf; type: Font file; size: 305K
+9. NotoSans-Regular.ttf; type: Font file; size: 305K
+10. NotoSans-SemiBold.ttf; type: Font file; size: 306K
+11. NotoSansSinhala-Black.otf; type: Font file; size: 76K
+12. NotoSansSinhala-Bold.otf; type: Font file; size: 82K
+13. NotoSansSinhala-Condensed.otf; type: Font file; size: 86K
+14. NotoSansSinhala-CondensedBlack.otf; type: Font file; size: 87K
+15. NotoSansSinhala-CondensedThin.otf; type: Font file; size: 83K
+16. NotoSansSinhala-ExtraBold.otf; type: Font file; size: 88K
+17. NotoSansSinhala-ExtraCondensed.otf; type: Font file; size: 73K
+18. NotoSansSinhala-ExtraCondensedBlack.otf; type: Font file; size: 74K
+19. NotoSansSinhala-ExtraCondensedBold.otf; type: Font file; size: 84K
+20. NotoSansSinhala-ExtraCondensedThin.otf; type: Font file; size: 71K
+21. NotoSansSinhala-Light.otf; type: Font file; size: 87K
+22. NotoSansSinhala-Regular.otf; type: Font file; size: 82K
+23. NotoSansSinhala-SemiBold.otf; type: Font file; size: 89K
+24. NotoSansSinhala-SemiCondensed.otf; type: Font file; size: 88K
+25. NotoSansSinhala-Thin.otf; type: Font file; size: 72K
+26. NotoSerifSinhala-Black.otf; type: Font file; size: 72K
+27. NotoSerifSinhala-Regular.otf; type: Font file; size: 72K

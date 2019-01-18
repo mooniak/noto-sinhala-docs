@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>fontester - UDHR </title>
+    <link href="./../../../assets/styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./../../../assets/styles/custom_styles.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="./../../../assets/styles/typeplate.css" rel="stylesheet" type="text/css" /> -->
+    <link href="./../../../assets/adobe-blank/adobe-blank.css" rel="stylesheet" type="text/css" />
+    <script src="/socket.io/socket.io.js">
+    </script>
+    <script src="./../../../assets/js/jquery.js">
+    </script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    </script>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" style="display:none;" id="closebtn" class="closebtn" onclick="closeNav()">&times; CLOSE </a>
+  <nav>
+    <ul>
+      ______
+
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-multiscript" class="portfolio-entry">Sinhala multi script</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK" class="portfolio-entry">Sinhala</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_test-numerals" class="portfolio-entry">Indo-arabic numerals in Sinhala</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_test-pairs" class="portfolio-entry">Sinhala kern pairs</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_test-sinhalaNumarals" class="portfolio-entry">Sinhala archaic numerals</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_test-spacing" class="portfolio-entry">Spacing tests</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_tests-shapeGroups" class="portfolio-entry">Sinhala Shape groups</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-calssical" class="portfolio-entry">Classical Sinhala</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-displayStrings" class="portfolio-entry">Display strings</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_libreoffice-ui-strings" class="portfolio-entry">LibreOffice Sinhala UI strings</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-opentype" class="portfolio-entry">Opentype features</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-pali" class="portfolio-entry">Pali tests</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-puncuation" class="portfolio-entry">Longform punctuation tests</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-sanskrit" class="portfolio-entry">Sinhala Sanskrit tests</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-structured" class="portfolio-entry">Sinhala structured text numerals</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-tamilMultiscript" class="portfolio-entry">Sinhala Tamil multi-script</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text-udhr" class="portfolio-entry">UDHR</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_text_prose" class="portfolio-entry">Prose</a>
+      </li>
+      <li>
+        <a href="/tester/tests/tests/si_LK/si_touching" class="portfolio-entry">Pali tests</a>
+      </li>
+    </ul>
+
+    <ul>
+      ______
+      <li>
+        <a href=../../../../index.html> (i) about</a>
+      </li>
+      <li>
+        <a href=../../../../index.html> (ii) source</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div  id="main">
+  <div id="controls">
+    <ul>
+      <li>
+        <a id="openbtn" style="padding-top: 1px;display:block; float:left;" onclick="openNav()"> → ALL TESTS</a>
+      </li>
+      <li id='translControl'>
+        <input type="checkbox" id="checkboxId" onclick="javascript:checkboxClickHandler()"></input>
+        Type in <select id="languageDropDown" onchange="javascript:languageChangeHandler()"></select> |
+      </li>
+      <li>
+        <button style="float:left;" href="javascript://" id="showhide">OpenType Features ↓ </button>
+      </li>
+    </ul>
+    <br />
+    <div style="clear:both"></div>
+    <div id="otfeatures" style="display: none;">
+      <br/>
+      <table>
+        <tr>
+          <td valign="top" width="25%">
+            <input checked id="kern" onchange="refreshFeatures()" type="checkbox">OpenType Kerning
+            <br>
+            <input checked id="liga" onchange="refreshFeatures()" type="checkbox">Standard Ligatures
+            <br>
+            <input checked id="calt" onchange="refreshFeatures()" type="checkbox">Contextual Alternates
+            <br>
+            <br>
+            <input id="dlig" onchange="refreshFeatures()" type="checkbox">Discretionary Ligatures
+            <br>
+            <input id="hlig" onchange="refreshFeatures()" type="checkbox">Historical Ligatures
+            <br>
+            <input id="swsh" onchange="refreshFeatures()" type="checkbox">Swashes
+            <br>
+            <input id="salt" onchange="refreshFeatures()" type="checkbox">Stylistic Alternates</td>
+          <td valign="top" width="25%">
+            <input checked name="smcp" onchange="refreshFeatures()" type="radio">SmallCaps Off
+            <br>
+            <input id="fake-smcp" name="smcp" onchange="refreshFeatures()" type="radio">Fake SmallCaps
+            <br>
+            <input id="smcp" name="smcp" onchange="refreshFeatures()" type="radio">True SmallCaps
+            <br>
+            <input id="c2sc" onchange="refreshFeatures()" type="checkbox">Capitals to Small Caps</td>
+          <td valign="top" width="25%">
+            <input checked name="numsty" onchange="refreshFeatures()" type="radio">Default Figures Style
+            <br>
+            <input id="lnum" name="numsty" onchange="refreshFeatures()" type="radio">Lining Figures
+            <br>
+            <input id="onum" name="numsty" onchange="refreshFeatures()" type="radio">Oldstyle Figures
+            <br>
+            <br>
+            <input checked name="numspc" onchange="refreshFeatures()" type="radio">Default Figures Width
+            <br>
+            <input id="pnum" name="numspc" onchange="refreshFeatures()" type="radio">Proportional Figures
+            <br>
+            <input id="tnum" name="numspc" onchange="refreshFeatures()" type="radio">Tabular Figures</td>
+          <td valign="top" width="25%">
+            <input id="frac" name="frac" onchange="refreshFeatures()" type="checkbox">Fractions
+            <br>
+            <input id="zero" onchange="refreshFeatures()" type="checkbox">Slashed zero
+            <br>
+            <br>
+            <input id="ordn" onchange="refreshFeatures()" type="checkbox">Ordinals
+            <br>
+            <br>
+            <input id="sups" onchange="refreshFeatures()" type="checkbox">Superiors
+            <br>
+            <input id="sinf" onchange="refreshFeatures()" type="checkbox">Inferiors
+            <br>
+            <input id="numr" onchange="refreshFeatures()" type="checkbox">Numerator
+            <br>
+            <input id="dnom" onchange="refreshFeatures()" type="checkbox">Denominator</td>
+        </tr>
+        <tr>
+          <td colspan="4" valign="top">
+            <input id="ss01" onchange="refreshFeatures()" type="checkbox">ss01&nbsp;
+            <input id="ss02" onchange="refreshFeatures()" type="checkbox">ss02&nbsp;
+            <input id="ss03" onchange="refreshFeatures()" type="checkbox">ss03&nbsp;
+            <input id="ss04" onchange="refreshFeatures()" type="checkbox">ss04&nbsp;
+            <input id="ss05" onchange="refreshFeatures()" type="checkbox">ss05&nbsp;
+            <input id="ss06" onchange="refreshFeatures()" type="checkbox">ss06&nbsp;
+            <input id="ss07" onchange="refreshFeatures()" type="checkbox">ss07&nbsp;
+            <input id="ss08" onchange="refreshFeatures()" type="checkbox">ss08&nbsp;
+            <input id="ss09" onchange="refreshFeatures()" type="checkbox">ss09&nbsp;
+            <input id="ss10" onchange="refreshFeatures()" type="checkbox">ss10
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4" valign="bottom">
+            <input id="ss11" onchange="refreshFeatures()" type="checkbox">ss11&nbsp;
+            <input id="ss12" onchange="refreshFeatures()" type="checkbox">ss12&nbsp;
+            <input id="ss13" onchange="refreshFeatures()" type="checkbox">ss13&nbsp;
+            <input id="ss14" onchange="refreshFeatures()" type="checkbox">ss14&nbsp;
+            <input id="ss15" onchange="refreshFeatures()" type="checkbox">ss15&nbsp;
+            <input id="ss16" onchange="refreshFeatures()" type="checkbox">ss16&nbsp;
+            <input id="ss17" onchange="refreshFeatures()" type="checkbox">ss17&nbsp;
+            <input id="ss18" onchange="refreshFeatures()" type="checkbox">ss18&nbsp;
+            <input id="ss19" onchange="refreshFeatures()" type="checkbox">ss19&nbsp;
+            <input id="ss20" onchange="refreshFeatures()" type="checkbox">ss20
+            <br>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container">
+<div contenteditable="true" id="transliterate"  class="container" style="direction:;">
+    <section id="fullSection"  class="otfeat adobe_blank" spellcheck="false" contenteditable="true" ```>
+        
+<h1 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+
+<h1>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<h1 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<h1 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<br />
+
+<p>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</p>
+
+
+<h1 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<h2 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h2>
+<h3 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h3>
+<h4 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h4>
+<h5 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h5>
+<h6 style="font-weight:200;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h6>
+
+<br />
+
+<h1>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<h2>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h2>
+<h3>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h3>
+<h4>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h4>
+<h5>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h5>
+<h6>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h6>
+
+<br />
+
+
+<h1 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<h2 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h2>
+<h3 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h3>
+<h4 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h4>
+<h5 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h5>
+<h6 style="font-weight:700;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h6>
+
+<br />
+
+
+<h1 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h1>
+<h2 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h2>
+<h3 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h3>
+<h4 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h4>
+<h5 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h5>
+<h6 style="font-weight:900;">මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</h6>
+
+<br />
+
+
+<p>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</p>
+<p>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</p>
+
+<p>මානව අයිතිවාසිකම් පිළිබඳ විශ්ව ප්‍රකාශනය</p>
+
+<p style="font-weight:700;">අත අපරාදෙ තෙබුවන තමත් මද කළමනාකර මුස්තාපා පුරන්අප්පු අතර සමුද්ර රුපු කවා දෙපාර්ශයෙන් දුතෙන අත්යන්ත්ර කසදෙ පසම යනෙන රත්නා නන්නාදුනන්නා බද්ද වතාවත් නුවර රන්කෙන්දෙන් අප්රසන්නතාව මවන්න සනාත අවසනාවන්ත තරකර ක්ම ශත රසය දවා කුමනාකාර දනවන අ වරක අක්කරපත්තුව රත්නායක ස්වතන්ත්ර මෙබඳු ක්රමදෙකෙන් වනපෙත තබපු ළඳක පසුකර මදකම මන්ත්ර පු්රළුවන් සඳළු කඳ අබාන්ස් පුනරුක්ත සත්යාසත්යතාව රුන් තෙර කාපු සාදා කබ අසත්ය වෙන්නප්පුව රුදුරු සුදුුසු යෙන් කාමුක සන්නස ළදරුවන් කළමනා කවාකාර ව්යාපාර කළමනාකාරවරුන් සත්යාසත්යතාව දායාද අන්දර නන්නාදුනන්නා මරද සාම්ප්රදාය අදම නමය යන්ත්රානුසාරයෙන් අදද කම්කරුවන් අනායාසයෙන් ප්රස්තුතය වදාළ ළ පද නම්මන්න පරපුර කපු තව බුක් කව පද කත්මන්දු ස් ළදරුවෙකු පස්දෙනකු අනන යුද්දෙ අයව සන්නස නමවත් බුසාන් යෙදෙන අද්දර වත්ත කම්කරුවෙකු අමාරු පා යය නකායකයෙකු තතමන සුරබයා තන්ත්රය යාතු බසන්ත කපපන් මාත්තු මෙතන මදුරුවන් පා කඳුවුරු ව්යායාම වා අනන්ත අපදාන මක් සද්දන්ත සාමප්රයුක්ත බාළ පුනරුත්තාපන තම මදුරුවන් පත්රයක වමත ශතයක් පසුව කම්ප්රාද් මන්ස්කාන්ත ක්රම දරා සෙනසුරා අත සම්බන්ද වස් අදස් අපෙ පනවන පස සම්බන්දතාව මත තෙවරප්පෙරුම පතමු පුනරුත්තාපන ප්රස්පන්ද බෙදුම්වාදය පතන බාන වෙබ් මද්දුම අනුශුරතාවයත් මනු මතු සප්පයව අප්රසන්නතාව දෙදශකය රාසා මා සෙනසුරු වත් කාපු ය අළුත බවුම යාත්රා අනවාර්යයෙන්ම මරාදමන්න පුරන්අප්පු රදනු දරපු ස යන් පුදුමාකාර වායුසමනය මකුළු තතමන වෙයන් යෙරෙව්දා මා දුන්න ළදක් මසන අත්යත්තයෙන්ම තබන පන්දුයවන්නා වරප්රසාද පුපුරායාම සුදර්ශනාරාමය රාවතාවත්ත කන්න රළ තවෙකෙක් රාමනායක බාද් ශාක ශාස්ත්ර මදුරප්පෙරුම පාද අතපත අනුප්රාප්ත අයා අත පා ව් තාව කවමදාකවත් දෙදශකය කප් මුවමර් තවාන පුරන්අප්පු කබා සඳළු අනුශුරතාවයත් පන්දුයවන්නා අතුරු මස්තකප්රාප්ත ඳ සාවද්ය මම බද වායුව මෙබව මසුරන් නාය අප බයෙන් ප්රවනතා මා නවතත්ත්වය පුනරාවර්තන කරාමයෙන්් අකාර පෙවෙත රසක් අන්දමන්ද සරන කදක් වළක අමුත්තක් පුන්යායතන මානවසම්පත් මාවත නායක්කාර් දෙදෙනකු වස් යුනාන් පන්නරය වනත් සම්ප්රදායයන් මයුරා බවය ප්රවනතා තෙමා සුදම්පාය අන්ය ප් අනවසර පසත් බර අනන්යතාව නවා අයබදු සවුත් අනන්ය පතදුම්බර මුළු අරළු පස්වන කම්කරුවෙකු දුරකතනය නෙළා මෙනවාද මෙබව අතුරන ද සබා අප්රසන්නතාව සම්ප්රයුක්ත යන් අයස්කාන්ත අනවාර්යයෙන්ම පුනාබ් මනස දෙනකු යක්දෙස්සාකන්ද නර්ස් යන්තම්පළ අත්යත්තයෙන්ම</p>
+
+<p style="font-weight:200;">අත අපරාදෙ තෙබුවන තමත් මද කළමනාකර මුස්තාපා පුරන්අප්පු අතර සමුද්ර රුපු කවා දෙපාර්ශයෙන් දුතෙන අත්යන්ත්ර කසදෙ පසම යනෙන රත්නා නන්නාදුනන්නා බද්ද වතාවත් නුවර රන්කෙන්දෙන් අප්රසන්නතාව මවන්න සනාත අවසනාවන්ත තරකර ක්ම ශත රසය දවා කුමනාකාර දනවන අ වරක අක්කරපත්තුව රත්නායක ස්වතන්ත්ර මෙබඳු ක්රමදෙකෙන් වනපෙත තබපු ළඳක පසුකර මදකම මන්ත්ර පු්රළුවන් සඳළු කඳ අබාන්ස් පුනරුක්ත සත්යාසත්යතාව රුන් තෙර කාපු සාදා කබ අසත්ය වෙන්නප්පුව රුදුරු සුදුුසු යෙන් කාමුක සන්නස ළදරුවන් කළමනා කවාකාර ව්යාපාර කළමනාකාරවරුන් සත්යාසත්යතාව දායාද අන්දර නන්නාදුනන්නා මරද සාම්ප්රදාය අදම නමය යන්ත්රානුසාරයෙන් අදද කම්කරුවන් අනායාසයෙන් ප්රස්තුතය වදාළ ළ පද නම්මන්න පරපුර කපු තව බුක් කව පද කත්මන්දු ස් ළදරුවෙකු පස්දෙනකු අනන යුද්දෙ අයව සන්නස නමවත් බුසාන් යෙදෙන අද්දර වත්ත කම්කරුවෙකු අමාරු පා යය නකායකයෙකු තතමන සුරබයා තන්ත්රය යාතු බසන්ත කපපන් මාත්තු මෙතන මදුරුවන් පා කඳුවුරු ව්යායාම වා අනන්ත අපදාන මක් සද්දන්ත සාමප්රයුක්ත බාළ පුනරුත්තාපන තම මදුරුවන් පත්රයක වමත ශතයක් පසුව කම්ප්රාද් මන්ස්කාන්ත ක්රම දරා සෙනසුරා අත සම්බන්ද වස් අදස් අපෙ පනවන පස සම්බන්දතාව මත තෙවරප්පෙරුම පතමු පුනරුත්තාපන ප්රස්පන්ද බෙදුම්වාදය පතන බාන වෙබ් මද්දුම අනුශුරතාවයත් මනු මතු සප්පයව අප්රසන්නතාව දෙදශකය රාසා මා සෙනසුරු වත් කාපු ය අළුත බවුම යාත්රා අනවාර්යයෙන්ම මරාදමන්න පුරන්අප්පු රදනු දරපු ස යන් පුදුමාකාර වායුසමනය මකුළු තතමන වෙයන් යෙරෙව්දා මා දුන්න ළදක් මසන අත්යත්තයෙන්ම තබන පන්දුයවන්නා වරප්රසාද පුපුරායාම සුදර්ශනාරාමය රාවතාවත්ත කන්න රළ තවෙකෙක් රාමනායක බාද් ශාක ශාස්ත්ර මදුරප්පෙරුම පාද අතපත අනුප්රාප්ත අයා අත පා ව් තාව කවමදාකවත් දෙදශකය කප් මුවමර් තවාන පුරන්අප්පු කබා සඳළු අනුශුරතාවයත් පන්දුයවන්නා අතුරු මස්තකප්රාප්ත ඳ සාවද්ය මම බද වායුව මෙබව මසුරන් නාය අප බයෙන් ප්රවනතා මා නවතත්ත්වය පුනරාවර්තන කරාමයෙන්් අකාර පෙවෙත රසක් අන්දමන්ද සරන කදක් වළක අමුත්තක් පුන්යායතන මානවසම්පත් මාවත නායක්කාර් දෙදෙනකු වස් යුනාන් පන්නරය වනත් සම්ප්රදායයන් මයුරා බවය ප්රවනතා තෙමා සුදම්පාය අන්ය ප් අනවසර පසත් බර අනන්යතාව නවා අයබදු සවුත් අනන්ය පතදුම්බර මුළු අරළු පස්වන කම්කරුවෙකු දුරකතනය නෙළා මෙනවාද මෙබව අතුරන ද සබා අප්රසන්නතාව සම්ප්රයුක්ත යන් අයස්කාන්ත අනවාර්යයෙන්ම පුනාබ් මනස දෙනකු යක්දෙස්සාකන්ද නර්ස් යන්තම්පළ අත්යත්තයෙන්ම</p>
+
+</div>
+
+    </section>
+</div>
+<br>
+<div id="errorDiv"></div>
+<script src="./../../../assets/js/font-tester.js"></script>
+<script src="../../../../config.js"></script>
+<script charset="utf-8" src="./../../../assets/js/otfeatures.js" type="text/javascript"></script>
+<script src="./../../../assets/js/transliterate.js" /></script>
+<script>
+  // OT Features Panel
+  $('#showhide').click(function() {
+    $('#otfeatures').slideToggle("fast", function() {
+      $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features ↑" : "OpenType Features ↓");
+    });
+  });
+  // Side navigation
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "350px";
+    document.getElementById("main").style.marginLeft = "350px";
+    document.getElementById("closebtn").style.display = "block";
+    document.getElementById("openbtn").style.display = "none";
+  }
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("closebtn").style.display = "none";
+    document.getElementById("openbtn").style.display = "block";
+  }
+</script>
+<footer>
+  <div class="container">
+    © fontester project contributors.
+  </div>
+</footer>
+</body>
+</html>
+</div>

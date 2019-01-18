@@ -1,0 +1,219 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-Condensed
+FamilyName:Noto Serif Sinhala
+StyleName:Condensed
+MenuName:Noto Serif Sinhala Condensed
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Noto Serif Sinhala Condensed
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-Condensed.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84144
+FileModTime:1543229240
+NameArray:0,Win,1,Noto Serif Sinhala Condensed
+NameArray:0,Win,16,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-Light
+FamilyName:Noto Serif Sinhala
+StyleName:Light
+MenuName:Noto Serif Sinhala Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala Light
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85200
+FileModTime:1543229209
+NameArray:0,Win,1,Noto Serif Sinhala Light
+NameArray:0,Win,16,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSerif
+FamilyName:Noto Serif
+StyleName:Regular
+MenuName:Noto Serif
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif
+WritingScript:Roman
+OutlineFileName:\NotoSerif-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:350668
+FileModTime:1361923200
+NameArray:0,Win,1,Noto Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSerif-Black
+FamilyName:Noto Serif
+StyleName:Black
+MenuName:Noto Serif Blk
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Black
+WritingScript:Roman
+OutlineFileName:\NotoSerif-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:375396
+FileModTime:1505924434
+NameArray:0,Win,1,Noto Serif Blk
+NameArray:0,Win,16,Noto Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-Regular
+FamilyName:Noto Serif Sinhala
+StyleName:Regular
+MenuName:Noto Serif Sinhala
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74676
+FileModTime:1543229201
+NameArray:0,Win,1,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSerif-Bold
+FamilyName:Noto Serif
+StyleName:Bold
+MenuName:Noto Serif
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Bold
+WritingScript:Roman
+OutlineFileName:\NotoSerif-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:370884
+FileModTime:1361923200
+NameArray:0,Win,1,Noto Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-ExtraBold
+FamilyName:Noto Serif Sinhala
+StyleName:ExtraBold
+MenuName:Noto Serif Sinhala ExtraBold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala ExtraBold
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-ExtraBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85540
+FileModTime:1544650908
+NameArray:0,Win,1,Noto Serif Sinhala ExtraBold
+NameArray:0,Win,16,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-Black
+FamilyName:Noto Serif Sinhala
+StyleName:Black
+MenuName:Noto Serif Sinhala Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala Black
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74660
+FileModTime:1543229222
+NameArray:0,Win,1,Noto Serif Sinhala Black
+NameArray:0,Win,16,Noto Serif Sinhala
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:NotoSerifSinhala-ExtraLight
+FamilyName:Noto Serif Sinhala
+StyleName:ExtraLight
+MenuName:Noto Serif Sinhala ExtraLight
+StyleBits:0
+WeightClass:200
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif Sinhala ExtraLight
+WritingScript:Roman
+OutlineFileName:\NotoSerifSinhala-ExtraLight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85304
+FileModTime:1544651267
+NameArray:0,Win,1,Noto Serif Sinhala ExtraLight
+NameArray:0,Win,16,Noto Serif Sinhala
+%EndFont
+

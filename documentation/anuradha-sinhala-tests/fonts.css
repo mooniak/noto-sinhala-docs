@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'NotoSansSinhala';
+  src: url("fonts/NotoSansSinhala-Regular.otf");
+  font-weight: 400;
+}
+
+body {
+  font-family: 'NotoSansSinhala';
+}
