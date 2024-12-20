@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Comparison Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+        }
+
+        #side-panel {
+            width: 300px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .text-overlay {
+            position: absolute;
+            font-size: 24px;
+            line-height: 1.5;
+            text-align: center;
+            width: 90%;
+        }
+
+        .top-text {
+            pointer-events: none;
+        }
+
+        #side-panel label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        #side-panel input[type="color"],
+        #side-panel input[type="range"],
+        #side-panel input[type="text"],
+        #side-panel input[type="checkbox"],
+        #side-panel select {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        #side-panel button {
+            margin: 5px 0;
+            padding: 8px;
+            width: 100%;
+            background-color: #ddd;
+            border: none;
+            cursor: pointer;
+        }
+
+        #side-panel button:hover {
+            background-color: #bbb;
+        }
+        @font-face {
+            font-family: 'Noto Sans Sinhala Nightly';
+            src: url('./fonts/NotoSansSinhalaNightly-Thin.woff2') format('woff2');
+            font-weight: 100;
+        }
+
+        @font-face {
+            font-family: 'Noto Sans Sinhala Nightly';
+            src: url('./fonts/NotoSansSinhalaNightly-Regular.woff2') format('woff2');
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Noto Sans Sinhala Nightly';
+            src: url('./fonts/NotoSansSinhalaNightly-black.woff2') format('woff2');
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+
+<div id="side-panel">
+    <label for="text-input">Text to Display:</label>
+    <textarea id="text-input" rows="4">ශ්‍රී ලංකා / இலங்கை</textarea>
+
+    <label for="font-size">Font Size:</label>
+    <input type="range" id="font-size" min="12" max="48" step="1" value="24">
+
+    <label for="color-base">Noto Sans Sinhala Color:</label>
+    <input type="color" id="color-base" value="#000000">
+
+    <label for="color-top">Noto Sans Sinhala DEV Color:</label>
+    <input type="color" id="color-top" value="#FF0000">
+
+    <label for="opacity-base">Noto Sans Sinhala Opacity:</label>
+    <input type="range" id="opacity-base" min="0" max="1" step="0.01" value="1">
+
+    <label for="opacity-top">Noto Sans Sinhala DEV Opacity:</label>
+    <input type="range" id="opacity-top" min="0" max="1" step="0.01" value="1">
+
+    <label for="toggle-base">Show Noto Sans Sinhala:</label>
+    <input type="checkbox" id="toggle-base" checked>
+
+    <label for="toggle-top">Show Noto Sans Sinhala DEV:</label>
+    <input type="checkbox" id="toggle-top" checked>
+
+    <label for="text-alignment">Text Alignment:</label>
+    <button id="align-left">Left</button>
+    <button id="align-center">Center</button>
+    <button id="align-right">Right</button>
+</div>
+
+<div id="content">
+    <div id="base-text" class="text-overlay" style="font-family: 'Noto Sans Sinhala', sans-serif; color: #000; opacity: 1; text-align: center;">ශ්‍රී ලංකා / இலங்கை</div>
+    <div id="top-text" class="text-overlay top-text" style="font-family: 'Noto Sans Sinhala Nightly', sans-serif; color: #FF0000; opacity: 1; text-align: center;">ශ්‍රී ලංකා / இலங்கை</div>
+</div>
+
+<script>
+    const textInput = document.getElementById('text-input');
+    const baseText = document.getElementById('base-text');
+    const topText = document.getElementById('top-text');
+
+    const fontSize = document.getElementById('font-size');
+    const colorBase = document.getElementById('color-base');
+    const colorTop = document.getElementById('color-top');
+    const opacityBase = document.getElementById('opacity-base');
+    const opacityTop = document.getElementById('opacity-top');
+
+    const toggleBase = document.getElementById('toggle-base');
+    const toggleTop = document.getElementById('toggle-top');
+
+    const alignLeft = document.getElementById('align-left');
+    const alignCenter = document.getElementById('align-center');
+    const alignRight = document.getElementById('align-right');
+
+    // Update text content
+    textInput.addEventListener('input', () => {
+        baseText.textContent = textInput.value;
+        topText.textContent = textInput.value;
+    });
+
+    // Update font size
+    fontSize.addEventListener('input', () => {
+        baseText.style.fontSize = `${fontSize.value}px`;
+        topText.style.fontSize = `${fontSize.value}px`;
+    });
+
+    // Update Noto Sans Sinhala color
+    colorBase.addEventListener('input', () => {
+        baseText.style.color = colorBase.value;
+    });
+
+    // Update Noto Sans Sinhala DEV color
+    colorTop.addEventListener('input', () => {
+        topText.style.color = colorTop.value;
+    });
+
+    // Update Noto Sans Sinhala opacity
+    opacityBase.addEventListener('input', () => {
+        baseText.style.opacity = opacityBase.value;
+    });
+
+    // Update Noto Sans Sinhala DEV opacity
+    opacityTop.addEventListener('input', () => {
+        topText.style.opacity = opacityTop.value;
+    });
+
+    // Toggle Noto Sans Sinhala visibility
+    toggleBase.addEventListener('change', () => {
+        baseText.style.display = toggleBase.checked ? 'block' : 'none';
+    });
+
+    // Toggle Noto Sans Sinhala DEV visibility
+    toggleTop.addEventListener('change', () => {
+        topText.style.display = toggleTop.checked ? 'block' : 'none';
+    });
+
+    // Text alignment controls
+    alignLeft.addEventListener('click', () => {
+        baseText.style.textAlign = 'left';
+        topText.style.textAlign = 'left';
+    });
+
+    alignCenter.addEventListener('click', () => {
+        baseText.style.textAlign = 'center';
+        topText.style.textAlign = 'center';
+    });
+
+    alignRight.addEventListener('click', () => {
+        baseText.style.textAlign = 'right';
+        topText.style.textAlign = 'right';
+    });
+</script>
+
+</body>
+</html>

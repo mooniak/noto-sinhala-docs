@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Comparison: Noto Sans Sinhala vs Noto Sans Sinhala Nightly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@100;400;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .comparison {
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+
+        .column h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .editable {
+            font-size: 2rem;
+            line-height: 1.6;
+            padding: 10px;
+            border: 1px dashed #aaa;
+            border-radius: 5px;
+            background: #fff;
+            outline: none;
+            min-height: 300px;
+        }
+
+        .noto-sans {
+            font-family: 'Noto Sans Sinhala', sans-serif;
+        }
+
+        .noto-sans-nightly {
+            font-family: 'Noto Sans Sinhala Nightly', sans-serif;
+        }
+
+        .thin {
+            font-weight: 100;
+        }
+
+        .regular {
+            font-weight: 400;
+        }
+
+        .black {
+            font-weight: 900;
+        }
+
+        @font-face {
+            font-family: 'Noto Sans Sinhala Nightly';
+            src: url('./fonts/NotoSansSinhalaNightly-Thin.woff2') format('woff2');
+            font-weight: 100;
+        }
+
+        @font-face {
+            font-family: 'Noto Sans Sinhala Nightly';
+            src: url('./fonts/NotoSansSinhalaNightly-Regular.woff2') format('woff2');
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Noto Sans Sinhala Nightly';
+            src: url('./fonts/NotoSansSinhalaNightly-black.woff2') format('woff2');
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Font Comparison: Noto Sans Sinhala vs Noto Sans Sinhala Nightly</h1>
+
+    <div class="comparison">
+        <div class="column">
+            <h2>Noto Sans Sinhala - Thin</h2>
+            <div class="editable noto-sans thin" contenteditable="true">
+                217 10.12.1948 - 10, ; 1) । (1948), " — – ' [?] 360 : / 1958 ‘‘ = ~ දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය | ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව ॥
+            </div>
+        </div>
+        <div class="column">
+            <h2>Noto Sans Sinhala Nightly - Thin</h2>
+            <div class="editable noto-sans-nightly thin" contenteditable="true">
+                217 10.12.1948 - 10, ; 1) । (1948), " — – ' [?] 360 : / 1958 ‘‘ = ~ දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය | ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව ॥
+            </div>
+        </div>
+    </div>
+
+    <div class="comparison">
+        <div class="column">
+            <h2>Noto Sans Sinhala - Regular</h2>
+            <div class="editable noto-sans regular" contenteditable="true">
+                217 10.12.1948 - 10, ; 1) । (1948), " — – ' [?] 360 : / 1958 ‘‘ = ~ දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය | ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව ॥
+            </div>
+        </div>
+        <div class="column">
+            <h2>Noto Sans Sinhala Nightly - Regular</h2>
+            <div class="editable noto-sans-nightly regular" contenteditable="true">
+                217 10.12.1948 - 10, ; 1) । (1948), " — – ' [?] 360 : / 1958 ‘‘ = ~ දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය | ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව ॥
+            </div>
+        </div>
+    </div>
+
+    <div class="comparison">
+        <div class="column">
+            <h2>Noto Sans Sinhala - black</h2>
+            <div class="editable noto-sans black" contenteditable="true">
+                217 10.12.1948 - 10, ; 1) । (1948), " — – ' [?] 360 : / 1958 ‘‘ = ~ දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය | ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව ॥
+            </div>
+        </div>
+        <div class="column">
+            <h2>Noto Sans Sinhala Nightly - black</h2>
+            <div class="editable noto-sans-nightly black" contenteditable="true">
+                217 10.12.1948 - 10, ; 1) । (1948), " — – ' [?] 360 : / 1958 ‘‘ = ~ දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය | ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව ॥
+            </div>
+        </div>
+    </div>
