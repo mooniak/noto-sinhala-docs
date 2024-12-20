@@ -92,27 +92,47 @@
 
 <div id="side-panel">
     <label for="text-input">Text to Display:</label>
-    <textarea id="text-input" rows="4">ශ්‍රී ලංකා / இலங்கை</textarea>
+    <textarea id="text-input" rows="4">දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු පෞද්ගලික ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර 
+        ඟිහිපිෂිසිඝිෆිලිගිශිභිහිර්‍ක්‍ෂ
+        ලි
+        ළිදිඳිඤිඥි ර්‍ක
+        කරතනර්‍
+        ර්‍ත්‍ථ්‍ ්‍යුඤ‍්ජ
+        ණ‍්ඩ්‍යු ්‍ය්
+        ්‍ය් ්‍යි
+        ක්‍ය් ක්‍යි
+        
+        ක්‍යූක්‍යු
+        බ‍්බ
+        ම‍්බ
+        
+        ද්‍රි දි දී 
+        චිටිඩිඬිඛිබිමිධිවිඹිඣිඞි
+        කිතිනි
+        
+        යි
+        
+        යි</textarea>
 
     <label for="font-size">Font Size:</label>
     <input type="range" id="font-size" min="12" max="48" step="1" value="24">
 
-    <label for="color-base">Noto Sans Sinhala Color:</label>
+    <label for="color-base">Base Font Color:</label>
     <input type="color" id="color-base" value="#000000">
 
-    <label for="color-top">Noto Sans Sinhala DEV Color:</label>
+    <label for="color-top">Top Font Color:</label>
     <input type="color" id="color-top" value="#FF0000">
 
-    <label for="opacity-base">Noto Sans Sinhala Opacity:</label>
+    <label for="opacity-base">Base Font Opacity:</label>
     <input type="range" id="opacity-base" min="0" max="1" step="0.01" value="1">
 
-    <label for="opacity-top">Noto Sans Sinhala DEV Opacity:</label>
+    <label for="opacity-top">Top Font Opacity:</label>
     <input type="range" id="opacity-top" min="0" max="1" step="0.01" value="1">
 
-    <label for="toggle-base">Show Noto Sans Sinhala:</label>
+    <label for="toggle-base">Show Base Font:</label>
     <input type="checkbox" id="toggle-base" checked>
 
-    <label for="toggle-top">Show Noto Sans Sinhala DEV:</label>
+    <label for="toggle-top">Show Top Font:</label>
     <input type="checkbox" id="toggle-top" checked>
 
     <label for="text-alignment">Text Alignment:</label>
@@ -156,32 +176,32 @@
         topText.style.fontSize = `${fontSize.value}px`;
     });
 
-    // Update Noto Sans Sinhala color
+    // Update base font color
     colorBase.addEventListener('input', () => {
         baseText.style.color = colorBase.value;
     });
 
-    // Update Noto Sans Sinhala DEV color
+    // Update top font color
     colorTop.addEventListener('input', () => {
         topText.style.color = colorTop.value;
     });
 
-    // Update Noto Sans Sinhala opacity
+    // Update base font opacity
     opacityBase.addEventListener('input', () => {
         baseText.style.opacity = opacityBase.value;
     });
 
-    // Update Noto Sans Sinhala DEV opacity
+    // Update top font opacity
     opacityTop.addEventListener('input', () => {
         topText.style.opacity = opacityTop.value;
     });
 
-    // Toggle Noto Sans Sinhala visibility
+    // Toggle base font visibility
     toggleBase.addEventListener('change', () => {
         baseText.style.display = toggleBase.checked ? 'block' : 'none';
     });
 
-    // Toggle Noto Sans Sinhala DEV visibility
+    // Toggle top font visibility
     toggleTop.addEventListener('change', () => {
         topText.style.display = toggleTop.checked ? 'block' : 'none';
     });

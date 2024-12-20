@@ -1,0 +1,12 @@
+# _config.yml
+title: HTML Index for Tests
+baseurl: "" # Root directory (adjust if hosted on a subpath)
+url: ""     # Your website's URL (optional)
+
+# Include /tests folder in the build
+include:
+  - tests/*.html
+
+# Build settings
+markdown: kramdown
+theme: minima # Or another Jekyll theme of your choice
