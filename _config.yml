@@ -5,6 +5,7 @@ url: ""     # Your website's URL (optional)
 
 # Include /tests folder in the build
 include:
+  - tests
   - tests/*.html
 
 # Build settings
